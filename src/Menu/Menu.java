@@ -124,6 +124,9 @@ public class Menu {
                            mostrarMenu();
                        }
                    }
+                    
+                    /*ERROR
+                    Else tiene que estar fuera del bucle for pues no deja completarse la eliminación por nombre*/
 
                    else {
                        System.out.println("Tío, no encuentro el contacto que me has pasado ni por su nombre ni por su DNI");
